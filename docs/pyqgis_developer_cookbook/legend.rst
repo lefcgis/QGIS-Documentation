@@ -1,14 +1,13 @@
 .. _projectpy:
 
 *************************************
-Accessing the Table Of Contents (TOC)
+Accediendo a la Tabla de Contenidos (TOC)
 *************************************
 
 .. contents::
    :local:
 
-If you’re outside the pyqgis console, the code snippets on this page need the
-following imports:
+Si te encuentras fuera de la consola pyqgis, los códigos snippets de esta página necesitarán las siguientes importaciones:
 
 .. testcode::
 
@@ -17,8 +16,7 @@ following imports:
                           QgsLayerTreeLayer,
                           )
 
-You can use different classes to access all the loaded layers in the TOC and
-use them to retrieve information:
+Puedes usar diferentes clases para acceder a todas las capas cargadas en el TOC y usarlas para recuperar información:
 
 * :class:`QgsProject <qgis.core.QgsProject>`
 * :class:`QgsLayerTreeGroup <qgis.core.QgsLayerTreeGroup>`
